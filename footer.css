@@ -1,0 +1,69 @@
+footer{
+    display: flex;
+    flex: 1fr;
+    flex-direction: row;
+    height: 70px;
+    justify-content: center;
+    padding-bottom: 5px;
+
+   /* this piece of code is for fixing the footer at the bottom */
+   position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-top: 2px solid black;
+    background-color: rgba(0, 0, 0,0.3);
+}
+article.links{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 80px;
+    align-items: center; 
+    justify-content: center;
+    background: none;
+    border: none;
+}
+article.links:hover{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.image-box{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    align-items: center; 
+   
+    justify-content: space-between;
+    margin: 1%;
+    background: none;
+    border: none;
+}
+.text-box{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.tb{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: rgb(207, 198, 198);
+}
+.image{
+    margin: 2px;
+}
+.gmail{
+    height: 25px;
+    width: 22px;
+}
+.instagram{
+    height: 23px;
+    width: 22px;
+}
+.linkedin{
+    height: 22px;
+    width: 22px;
+}

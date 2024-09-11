@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="login_forms.css">
+</head>
+<body>
+    <div class="grid"><!--grid div starts here-->
+        <form action="form" class="sign-up_form"><!--form number 1 starts here-->
+            <h2>SIGN-UP FORM</h2>
+            <label for="First-name"> First Name: </label>
+            <input class="tb_1" placeholder="First name">
+            <br>
+            <label for="Last-name"> Last Name: </label>
+            <input class="tb_2" placeholder="Last Name">
+            <br>
+            <label for="Email"> Email: </label>
+            <input class="tb_3" placeholder="Email">
+            <br>
+            <button class="tb_4">Sign Up</button>
+        </form><!--form number 1 ends here-->
+        <br><!--form number 2 starts here-->
+        <form action="form" class="Request_form">
+            <h3>Request a ride now</h3>
+            <label for="location"> Pickup Location: </label>
+            <input class="tb_5" placeholder="Enter pickup location"><br>
+            <label for="location"> Destination: </label>
+            <input class="tb_6" placeholder="Enter destination"><br>
+            <button class="tb_7">Request now</button>
+            <button class="tb_8">Sign Up</button>
+        </form><!--form number 2 ends here-->  
+    </div><!--grid div ends here-->
+
+    <section class="main">
+        <div class="main-form"> <!--form number 3 starts here-->
+            <div class="register" >
+                <h2>Registeration Form</h2>
+                <form id="register" method="post">
+                    <label> First Name: </label><br>
+                    <input  type="text" name="fname" id="name" placeholder="Enter Your First Name"><br><br>
+                    <label> Last Name: </label><br>
+                    <input type="text" name="lname" id="name" placeholder="Enter Your Last Name"><br><br>
+                    <label> Your Age: </label><br>
+                    <input type="number" name="age" id="name" placeholder="How old are you? "><br><br>
+                    <label> Email: </label><br>
+                    <input type="email" name="email" id="name" placeholder="How old are you? "><br><br>
+                    <label> Gender: </label><br>
+                    &nbsp;&nbsp;&nbsp;<!--to remove whitespaces and muliple spaces-->
+                    <input type="radio" name="gender" id="male">&nbsp;
+                    <span id="male">Male</span>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="female">&nbsp;
+                    <span id="female">Female</span><br><br>
+                    <label> Known Language: </label><br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="lang" id="english">&nbsp;
+                    <span id="english">English</span>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="lang" id="urdu">&nbsp;
+                    <span id="urdu">Urdu</span>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="lang" id="pashto">&nbsp;
+                    <span id="pashto">Pashto</span>
+                    &nbsp;&nbsp;&nbsp;
+                    <br><br>
+                    <input type="submit" value="Submit" name="submit" id="submit">
+                </form>
+            </div>
+        </div><!--form number 3 ends here-->
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,99 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    background-image: url(images/bram-naus-n8Qb1ZAkK88-unsplash.jpg),
+    linear-gradient(to top left,rgba(0, 0, 0,0.5) 50%,rgba(3, 253, 240, 0.7)); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: white;
+    text-decoration: underline;
+    padding-top: 5%;
+    padding-left: 2%; 
+}
+.details{
+    background-color: rgba(0, 0, 0,0.3);
+    border: 1px solid rgba(0, 0, 0,0.3);
+    color: white;
+    margin: 2% 5%;
+    padding: 20px;
+    /*margin: 10px 20px; 
+    padding: 2% 4%;*/
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.details strong{
+    text-decoration: underline white;
+}
+.details:hover, article:hover{
+    background-color: rgba(0, 0, 0,0.7);
+    border: 2px solid rgba(0, 0, 0,0.8);
+}
+
+h2{
+    color: white;
+    text-decoration: underline;
+    padding: 2%; 
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+
+    background-color: rgba(0, 0, 0,0.3);
+    margin: 2% 5%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 105px;
+    width:90%;
+}
+.thumbnail{
+    height: 100px;
+    width: 100px;
+    margin: 4px;
+    
+    border: 2px solid black;
+    /*height: 94%;
+    width: 16%;*/
+    float: left;
+    border-radius: 2px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.text{
+    margin: 4px 0px 10px 10px;
+    align-items: center;
+    font-size: medium;
+    
+}
+.title{
+    text-decoration: underline rgba(255, 255, 255, 0.772);
+    margin-bottom: 5px;
+}
+.data{
+    font-size: small;
+}
+p strong{
+    color: white;
+}
+@media (max-width:750px){
+    .thumbnail{
+        width: 100px;
+        height: 100px;
+        }
+}

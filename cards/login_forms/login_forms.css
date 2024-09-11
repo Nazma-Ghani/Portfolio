@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+}
+.grid{
+    background-image: url(images/anas-alshanti-feXpdV001o4-unsplash.jpg);
+    background-size: 280%;
+    background-position: -400px 0px;
+    padding: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-content: space-between;
+   
+   
+}
+form{
+    display: block;
+    margin: 25px;
+    /*padding: 2% 5%;*/
+    border-radius: 5%; 
+}
+
+/* sign-up form starts here */
+.sign-up_form{
+    background-color: rgba(225, 225, 225,0.4);
+    border: 2px solid rgb(209, 205, 205);
+    width: 290px;
+    height: 270px;
+    padding:5%;
+   
+}
+h2,h3{
+    text-align: center;
+}
+.sign-up_form label{
+    font-weight: bold;
+}
+.tb_1, .tb_2, .tb_3{
+    margin-top: 2%;
+    width: 54%;
+    height: 6px;
+
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 10px 10px 15px;
+    
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px 5px 10px;
+    line-height: 10px;
+}
+::placeholder{
+    color: rgb(172, 172, 172);
+    font-weight: lighter;
+}
+.tb_4{
+    background-color: rgb(51, 141, 237);
+    border: 2px solid rgb(86, 152, 222);
+    padding: 2%;
+    margin: 20px 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    width: 100px;
+}
+
+/* request form starts here */
+.Request_form{
+    background-color: rgba(225, 225, 225,0.4);
+    border: 2px solid rgb(209, 205, 205);
+    border-radius: 5%;
+    padding:5%;
+    
+
+    width: 245px;
+    height: 250px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    font-display: block;
+}
+.tb_5,.tb_6{
+    width: 204px;
+    height: 8px;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-weight: lighter;
+    background-color: white;
+    padding: 10px 15px 10px 10px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.tb_7{
+    background-color: black;
+    border-color: black;
+    width: 95px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;padding-bottom: 10px;
+    color: white;
+    border: none;
+}
+.tb_8{
+    width: 100px;
+    border-color: black;
+    border-radius: 2px;
+    border-width: 1px;
+    font-weight: bold;
+    background-color: rgb(51, 141, 237);
+    border-color: black;
+    border-style:solid;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+/* Registeration form starts here */
+.main{
+    background: url(images/kyan-tijhuis-UNkVcHFKWK4-unsplash.jpg);
+    background-size: 280%;
+    background-position: -400px 0px;
+    padding: 15%;
+}
+div.main-form{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.register{
+    background-color: rgba(225, 225, 225,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(251, 210, 3,0.4);
+    box-shadow: 2px 2px 15px rgba(225, 225, 225,0.3);
+    color: white;
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: white;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(250, 100, 0, 0.8);
+    color: white;
+    cursor:pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+/* request form starts here */
+
+/* request form starts here */
+
+
+
+
+
+@media (max-width:480px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    }
+  
+}
+@media (min-width:481px) and (max-width:750px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+}
+@media (min-width:751px) and (max-width:950px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+
+}
+@media (min-width:951px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+}

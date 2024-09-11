@@ -1,0 +1,145 @@
+body{
+    padding: 25px;
+}
+.practice{
+    border-radius: 90px;
+    background-color: lavender;
+    height: 150px;
+    width: 150px;
+    transition: background-clip 0.15s, border-color 0.15s;
+    border-width: 4px;
+    border-style: solid;
+    border-color: peachpuff;
+}
+.practice:active{
+    background-color: peachpuff;
+    border-color: lavender;
+}
+.statement1{
+    color: rgb(0, 113, 133);
+    transition: color 0.15s;
+    text-decoration: underline;
+}
+.statement1:hover{
+        color: brown;
+}
+.statement2{
+    color: rgb(0, 0,0);
+    font-weight: bold;
+    font-size: large;
+} 
+.statement3{
+    color: rgb(0, 118, 0);
+}
+.statement4{
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+.lesson_8{
+    font-weight: bolder;
+    font-size: 25px;
+    align-self: center;
+}
+.question_8a{
+    font-weight: bolder;
+    font-size: 18px;
+    color: black;
+}
+.txt_1{
+    margin-top: 30px;
+}
+.txt_1,.txt_2{
+    display: block;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+}
+.txt_2{
+  margin-top: 4px;
+}
+.question_8b{
+    font-weight: bolder;
+    font-size: 18px;
+    color: black;
+}
+.st_1{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.bt_1,.bt_2{
+    width: 40px;
+    border-color: black;
+    border-radius: 2px;
+    border-width: 1px;
+    font-weight: bold;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+.question_8c{
+    font-weight: bolder;
+    font-size: 18px;
+    color: black;
+}
+.img_1{
+    display: block;
+    align-items: center;
+    width: 300px;
+    margin-left: 100px;
+    
+}
+.txt_3{
+    border-color: black;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 18px;
+    color: black;
+    display: block;
+    margin-left: 110px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+@media (max-width:480px){
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    }
+  
+}
+@media (min-width:481px) and (max-width:750px){
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+}
+@media (min-width:751px) and (max-width:950px){
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+}
+@media (min-width:951px){
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+}

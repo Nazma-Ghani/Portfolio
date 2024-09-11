@@ -1,0 +1,30 @@
+body{
+    /*background-image: linear-gradient(to top left,rgba(187, 3, 160,0.5),rgba(234, 13, 83,0.7) 
+    rgba(0, 0, 0,0.5) 50%,rgba(3, 253, 240, 0.7)); */
+    background-image: url(images/bram-naus-n8Qb1ZAkK88-unsplash.jpg),
+    linear-gradient(to top left,rgba(0, 0, 0,0.5) 50%,rgba(3, 253, 240, 0.7)); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+
+    
+}
+.content {
+    padding: 200px 25px;
+    margin: 10px 0px;
+}
+.content h1{
+    background-image: repeating-linear-gradient(-45deg, rgba(9, 201, 188, 0.994) 10%,rgba(225, 255, 225, 0.794) 15%,
+     rgba(185, 15, 174, 0.994) 10%, rgba(0, 0, 0, 0.5) 20%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+article.main{
+    padding: 2% 0%;
+   
+}
